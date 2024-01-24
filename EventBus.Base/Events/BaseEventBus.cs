@@ -53,7 +53,7 @@ public abstract class BaseEventBus : IEventBus
         {
             var subscriptions = SubsManager.GetHandlersForEvent(eventName);
 
-            using (var scope = ServiceProvider.CreateScope())
+            using (var  scope= ServiceProvider.CreateScope())
             {
                 foreach (var subscription in subscriptions)
                 {
@@ -66,10 +66,8 @@ public abstract class BaseEventBus : IEventBus
 
                     var concreteType = typeof(IIntegrationEventHandler<>).MakeGenericType(eventType);
                     await (Task)concreteType.GetMethod("Handle").Invoke(handler, new object[] { integrationEvent});
-
                 }
             }
-
             processed = true;
         }
 
