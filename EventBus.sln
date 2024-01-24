@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.Base", "EventBus.Base\EventBus.Base.csproj", "{BB570503-EE62-44C1-AC70-4D473D14CA00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.Factory", "EventBus.Factory\EventBus.Factory.csproj", "{64E78E5A-AADE-47EF-8336-299C5DEFE7EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.RabbitMQ", "EventBus.RabbitMQ\EventBus.RabbitMQ.csproj", "{788A2A83-262B-4108-811E-6085FB9C3003}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB570503-EE62-44C1-AC70-4D473D14CA00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB570503-EE62-44C1-AC70-4D473D14CA00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB570503-EE62-44C1-AC70-4D473D14CA00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB570503-EE62-44C1-AC70-4D473D14CA00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64E78E5A-AADE-47EF-8336-299C5DEFE7EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64E78E5A-AADE-47EF-8336-299C5DEFE7EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64E78E5A-AADE-47EF-8336-299C5DEFE7EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64E78E5A-AADE-47EF-8336-299C5DEFE7EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{788A2A83-262B-4108-811E-6085FB9C3003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{788A2A83-262B-4108-811E-6085FB9C3003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{788A2A83-262B-4108-811E-6085FB9C3003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{788A2A83-262B-4108-811E-6085FB9C3003}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

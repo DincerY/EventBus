@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "zfXHeEBbUZYrq4i2RLsqyOMqqaFhw3JqRdQM6x59Psa/S1sRmsnDKlq3Y5ZUx6r3gjpwvL9exFF9Gj14mfHNYw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dince\\RiderProjects\\EventBus\\EventBus.Base\\EventBus.Base.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dince\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\dince\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\dince\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
